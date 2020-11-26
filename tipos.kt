@@ -16,5 +16,14 @@ val z = 2
 val esTrue = x < y && x < z
 val otroTrue = x == y || y == z
 println("$x $y $z $esTrue $otroTrue")
+
+val string = "string con \n una línea nueva"
+
+val rawString ="""
+raw string es útil para
+ cadenas con muchas líneas
+ """
+
+ println ("$string $rawString")
 }
 
