@@ -10,7 +10,7 @@
     }
    }
     */
-    class Persona(var nombre:String, var apellido:String)
+   open class Persona(var nombre:String, var apellido:String)
 
    fun main(){
     var persona = Persona("Yesser","Miranda")
